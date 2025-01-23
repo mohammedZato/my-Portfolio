@@ -17,7 +17,7 @@ const Portfolio = () => {
       description: "Built a responsive product page website with a product list page, product details page and a cart list page, and complex state management using react context.",
       technologies: ["React", "Tailwind CSS"],
       features: ["Custom hooks", "Context API", "React Router dom", "Performance optimization"],
-      github: "https://github.com/mohammedZato/my-react-shopping-cart-app",
+      github: "https://github.com/mohammedZato/react-shopping-cart",
       live: " https://mohammedzato.github.io/react-shopping-cart/"
     },
     {
