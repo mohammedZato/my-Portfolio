@@ -46,7 +46,7 @@ const Portfolio = () => {
     },
     {
         title: "Tenzies Game",
-        description: "Developed a tenzies, where users can roll dice multiple times to obtian the same number on all dice, and a counter for keeping track of the number of rolls needed to win",
+        description: "Developed a tenzies game, where users can roll dices multiple times to obtian the same number on all dice, and a counter for keeping track of the number of rolls needed to win",
         technologies: ["React", "Tailwind CSS"],
         features: ["Custom themes"],
         github: "https://github.com/mohammedZato/react-tenzies-game",
