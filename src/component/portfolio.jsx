@@ -21,6 +21,14 @@ const Portfolio = () => {
       live: " https://mohammedzato.github.io/react-shopping-cart/"
     },
     {
+      title: "Recipe Finder Application",
+      description: "Built a responsive and user-friendly web application designed to help users discover recipes based on cuisine choices and dietary preferences",
+      technologies: ["React", "Zustand", "Tailwind CSS"],
+      features: ["Custom Themes", "API Integration"],
+      github: "https://github.com/mohammedZato/recipe-finder-app",
+      live: "https://mohammedzato.github.io/recipe-finder-app/"
+    },
+    {
       title: "Habit Tracker App",
       description: "Developed a habit tracker application, where users can add, remove and track their daily habits by marking them as completed.",
       technologies: ["React", "React Redux", "Tailwind CSS"],
