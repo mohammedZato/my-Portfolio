@@ -62,10 +62,21 @@ const Portfolio = () => {
     },
   ];
 
+  const experiences = [
+    {
+      title: "Web Designer (FREELANCE)",
+      description: "Created a responsive Hero section of a company's website with router links in navigation, and loading and image animations when hovering",
+      technologies: ["React", "Tailwind CSS"],
+      features: ["Custom hooks", "Image Animations", "Loading State", "React Router dom"],
+      github: "https://github.com/mohammedZato/PHA5E-animate",
+      live: "https://mohammedzato.github.io/PHA5E-animate/"
+    }
+  ];
+
   const skills = {
     core: ["React", "JavaScript (ES6+)", "HTML5", "CSS3"],
     styling: ["Tailwind CSS", "Material UI", "Styled Components", "CSS Modules"],
-    state: ["Redux", "React Query", "Zustand", "Context API"],
+    state: ["Redux", "React Query", "Zustand", "Context API", "Loading State"],
     tools: ["Vite", "Git", "npm"]
   };
 
@@ -154,6 +165,54 @@ const Portfolio = () => {
                     <span>Code</span>
                   </a>
                   <a href={project.live} target="_blank" className="flex items-center gap-2 text-gray-600 hover:text-gray-900">
+                    <ExternalLink size={16} />
+                    <span>Live Demo</span>
+                  </a>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Experience Section */}
+      <section className="py-16">
+        <div className="max-w-4xl mx-auto px-4">
+          <h2 className="text-2xl font-bold text-gray-900 mb-8">Work Experience</h2>
+          <div className="grid gap-8">
+            {experiences.map((experience) => (
+              <div key={experience.title} className="bg-white p-6 rounded-lg shadow-sm">
+                <h3 className="text-xl font-semibold text-gray-900">{experience.title}</h3>
+                <p className="mt-2 text-gray-600">{experience.description}</p>
+                
+                <div className="mt-4">
+                  <h4 className="text-sm font-semibold text-gray-700">Technologies:</h4>
+                  <div className="flex flex-wrap gap-2 mt-2">
+                    {experience.technologies.map((tech) => (
+                      <span key={tech} className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">
+                        {tech}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+
+                <div className="mt-4">
+                  <h4 className="text-sm font-semibold text-gray-700">Key Features:</h4>
+                  <div className="flex flex-wrap gap-2 mt-2">
+                    {experience.features.map((feature) => (
+                      <span key={feature} className="px-3 py-1 bg-green-50 text-green-600 rounded-full text-sm">
+                        {feature}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+
+                <div className="flex gap-4 mt-4">
+                  <a href={experience.github} target="_blank" className="flex items-center gap-2 text-gray-600 hover:text-gray-900">
+                    <ion-icon class="size-7" name="logo-github"></ion-icon>
+                    <span>Code</span>
+                  </a>
+                  <a href={experience.live} target="_blank" className="flex items-center gap-2 text-gray-600 hover:text-gray-900">
                     <ExternalLink size={16} />
                     <span>Live Demo</span>
                   </a>
