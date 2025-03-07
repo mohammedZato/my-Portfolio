@@ -127,54 +127,6 @@ const Portfolio = () => {
         </div>
       </section>
 
-      {/* Projects Section */}
-      <section className="py-16">
-        <div className="max-w-4xl mx-auto px-4">
-          <h2 className="text-2xl font-bold text-gray-900 mb-8">Personal React Projects</h2>
-          <div className="grid gap-8">
-            {projects.map((project) => (
-              <div key={project.title} className="bg-white p-6 rounded-lg shadow-sm">
-                <h3 className="text-xl font-semibold text-gray-900">{project.title}</h3>
-                <p className="mt-2 text-gray-600">{project.description}</p>
-                
-                <div className="mt-4">
-                  <h4 className="text-sm font-semibold text-gray-700">Technologies:</h4>
-                  <div className="flex flex-wrap gap-2 mt-2">
-                    {project.technologies.map((tech) => (
-                      <span key={tech} className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">
-                        {tech}
-                      </span>
-                    ))}
-                  </div>
-                </div>
-
-                <div className="mt-4">
-                  <h4 className="text-sm font-semibold text-gray-700">Key Features:</h4>
-                  <div className="flex flex-wrap gap-2 mt-2">
-                    {project.features.map((feature) => (
-                      <span key={feature} className="px-3 py-1 bg-green-50 text-green-600 rounded-full text-sm">
-                        {feature}
-                      </span>
-                    ))}
-                  </div>
-                </div>
-
-                <div className="flex gap-4 mt-4">
-                  <a href={project.github} target="_blank" className="flex items-center gap-2 text-gray-600 hover:text-gray-900">
-                    <ion-icon class="size-7" name="logo-github"></ion-icon>
-                    <span>Code</span>
-                  </a>
-                  <a href={project.live} target="_blank" className="flex items-center gap-2 text-gray-600 hover:text-gray-900">
-                    <ExternalLink size={16} />
-                    <span>Live Demo</span>
-                  </a>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* Experience Section */}
       <section className="py-16">
         <div className="max-w-4xl mx-auto px-4">
@@ -213,6 +165,54 @@ const Portfolio = () => {
                     <span>Code</span>
                   </a>
                   <a href={experience.live} target="_blank" className="flex items-center gap-2 text-gray-600 hover:text-gray-900">
+                    <ExternalLink size={16} />
+                    <span>Live Demo</span>
+                  </a>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Projects Section */}
+      <section className="py-16">
+        <div className="max-w-4xl mx-auto px-4">
+          <h2 className="text-2xl font-bold text-gray-900 mb-8">Personal React Projects</h2>
+          <div className="grid gap-8">
+            {projects.map((project) => (
+              <div key={project.title} className="bg-white p-6 rounded-lg shadow-sm">
+                <h3 className="text-xl font-semibold text-gray-900">{project.title}</h3>
+                <p className="mt-2 text-gray-600">{project.description}</p>
+                
+                <div className="mt-4">
+                  <h4 className="text-sm font-semibold text-gray-700">Technologies:</h4>
+                  <div className="flex flex-wrap gap-2 mt-2">
+                    {project.technologies.map((tech) => (
+                      <span key={tech} className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">
+                        {tech}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+
+                <div className="mt-4">
+                  <h4 className="text-sm font-semibold text-gray-700">Key Features:</h4>
+                  <div className="flex flex-wrap gap-2 mt-2">
+                    {project.features.map((feature) => (
+                      <span key={feature} className="px-3 py-1 bg-green-50 text-green-600 rounded-full text-sm">
+                        {feature}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+
+                <div className="flex gap-4 mt-4">
+                  <a href={project.github} target="_blank" className="flex items-center gap-2 text-gray-600 hover:text-gray-900">
+                    <ion-icon class="size-7" name="logo-github"></ion-icon>
+                    <span>Code</span>
+                  </a>
+                  <a href={project.live} target="_blank" className="flex items-center gap-2 text-gray-600 hover:text-gray-900">
                     <ExternalLink size={16} />
                     <span>Live Demo</span>
                   </a>
