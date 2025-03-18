@@ -3,7 +3,9 @@ import Portfolio from "./component/portfolio"
 
 function App() {
   return (
-    <Portfolio />
+    <div className="font-poppins">
+      <Portfolio />
+    </div>
   )
 }
 
