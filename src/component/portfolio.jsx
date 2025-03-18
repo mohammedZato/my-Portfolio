@@ -74,10 +74,10 @@ const Portfolio = () => {
   ];
 
   const skills = {
-    core: ["React", "JavaScript (ES6+)", "HTML5", "CSS3"],
+    core: ["ReactJS", "JavaScript (ES6+)", "HTML5", "CSS3"],
     styling: ["Tailwind CSS", "Material UI", "Styled Components", "CSS Modules"],
     state: ["Redux", "React Query", "Zustand", "Context API", "Loading State"],
-    tools: ["Vite", "Git", "npm"]
+    tools: ["ChartJS", "WordPress", "Git", "Github", "Vite", "npm"]
   };
 
   return (
