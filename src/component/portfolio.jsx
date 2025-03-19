@@ -4,7 +4,7 @@ import { Mail, ExternalLink } from 'lucide-react';
 const Portfolio = () => {
   const personalInfo = {
     name: "Mohammed React Developer",
-    title: "Frontend React Developer",
+    title: "Frontend ReactJS Developer",
     about: "React specialist with a passion for creating intuitive user interfaces and exceptional web experiences. Experienced in modern React practices including hooks, context, and state management. Strong focus on component reusability, performance optimization, and responsive design.",
     email: "harunamohammed231@gmail.com",
     github: "https://github.com/mohammedZato",
