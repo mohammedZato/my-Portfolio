@@ -64,7 +64,15 @@ const Portfolio = () => {
 
   const experiences = [
     {
-      title: "Web Developer (FREELANCE)",
+      title: "Frontend Developer - Coalition Technologies (FREELANCE)",
+      description: "Integrating a custom API and with a main focus on chartJS implementation, I built a patient data medical site with a list of patients, a diagnosis list and implemented a chart using chartJS to display diagnosis history of medical records",
+      technologies: ["React", "Tailwind CSS"],
+      features: ["Dynamic Chart", "API Integration", "React Router dom"],
+      github: "https://github.com/mohammedZato/patient-data",
+      live: "https://mohammedzato.github.io/patient-data/"
+    },
+    {
+      title: "Web Developer - Itzfizz Digital (FREELANCE)",
       description: "Created a responsive Hero section of a company's website with router links in navigation, and loading and image animations when hovering",
       technologies: ["React", "Tailwind CSS"],
       features: ["Custom hooks", "Image Animations", "Loading State", "React Router dom"],
