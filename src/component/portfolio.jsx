@@ -66,7 +66,7 @@ const Portfolio = () => {
     {
       title: "Frontend Developer - Coalition Technologies (FREELANCE)",
       description: "Integrating a custom API and with a main focus on chartJS implementation, I built a patient data medical site with a list of patients, a diagnosis list and implemented a chart using chartJS to display diagnosis history of medical records",
-      technologies: ["React", "Tailwind CSS"],
+      technologies: ["React", "ChartJS", "Tailwind CSS"],
       features: ["Dynamic Chart", "API Integration", "React Router dom"],
       github: "https://github.com/mohammedZato/patient-data",
       live: "https://mohammedzato.github.io/patient-data/"
