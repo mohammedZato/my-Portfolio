@@ -64,7 +64,7 @@ const Portfolio = () => {
 
   const experiences = [
     {
-      title: "Web Designer (FREELANCE)",
+      title: "Web Developer (FREELANCE)",
       description: "Created a responsive Hero section of a company's website with router links in navigation, and loading and image animations when hovering",
       technologies: ["React", "Tailwind CSS"],
       features: ["Custom hooks", "Image Animations", "Loading State", "React Router dom"],
