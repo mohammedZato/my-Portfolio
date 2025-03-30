@@ -18,7 +18,7 @@ const Portfolio = () => {
       technologies: ["React", "Tailwind CSS"],
       features: ["Custom hooks", "Context API", "React Router dom", "Performance optimization"],
       github: "https://github.com/mohammedZato/react-shopping-cart",
-      live: " https://mohammedzato.github.io/react-shopping-cart/"
+      live: "https://mohammedzato.github.io/react-shopping-cart/"
     },
     {
       title: "Recipe Finder Application",
