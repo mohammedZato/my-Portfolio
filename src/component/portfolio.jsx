@@ -13,20 +13,6 @@ const Portfolio = () => {
 
   const projects = [
     {
-      title: "Web Developer - Itzfizz Digital (FREELANCE)",
-      description:
-        "Created a responsive Hero section of a company's website with router links in navigation, and loading and image animations when hovering",
-      technologies: ["React", "Tailwind CSS"],
-      features: [
-        "Custom hooks",
-        "Image Animations",
-        "Loading State",
-        "React Router dom",
-      ],
-      github: "https://github.com/mohammedZato/PHA5E-animate",
-      live: "https://mohammedzato.github.io/PHA5E-animate/",
-    },
-    {
       title: "Patient Data Dashboard",
       description:
         "Integrating a custom API and with a main focus on chartJS implementation, I built a patient data medical site with a list of patients, a diagnosis list and implemented a chart using chartJS to display diagnosis history of medical records",
@@ -48,6 +34,20 @@ const Portfolio = () => {
       ],
       github: "https://github.com/mohammedZato/react-shopping-cart",
       live: "https://mohammedzato.github.io/react-shopping-cart/",
+    },
+    {
+      title: "Hero Section",
+      description:
+        "Created a responsive Hero section of a company's website with router links in navigation, and loading and image animations when hovering",
+      technologies: ["React", "Tailwind CSS"],
+      features: [
+        "Custom hooks",
+        "Image Animations",
+        "Loading State",
+        "React Router dom",
+      ],
+      github: "https://github.com/mohammedZato/PHA5E-animate",
+      live: "https://mohammedzato.github.io/PHA5E-animate/",
     },
     {
       title: "Recipe Finder Application",
@@ -121,21 +121,12 @@ const Portfolio = () => {
   ];
 
   const skills = {
-    core: ["ReactJS", "JavaScript (ES6+)", "HTML5", "CSS3"],
-    styling: [
-      "Tailwind CSS",
-      "Material UI",
-      "Styled Components",
-      "CSS Modules",
-    ],
-    libraries: [
-      "React Router Dom",
-      "React Query",
-      "React Context",
-      "Redux",
-      "Zustand",
-    ],
-    tools: ["ChartJS", "WordPress", "Git", "Github", "Vite", "npm"],
+    core: ["ReactJS", "NodeJS", "JavaScript (ES6+)", "HTML5"],
+    styling: ["Tailwind CSS", "CSS3"],
+    Backend_Databases: ["MongoDB", "Mongoose", "REST APIs"],
+    API_Design: ["CRUD Operations", "JWT AUthentication"],
+    libraries: ["ExpressJS", "React Query", "React Context", "Zustand"],
+    tools: ["Postman", "ChartJS", "Git", "Github"],
   };
 
   return (
