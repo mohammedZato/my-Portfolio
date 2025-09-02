@@ -102,7 +102,7 @@ const Portfolio = () => {
       description:
         "A full-featured e-commerce web application built with features such user authentication & authorization, Product Management, Reviews & Ratings section, Shopping Cart & Checkout and Order Management",
       technologies: ["NodeJS", "ExpressJS", "MongoDB"],
-      github: "https://github.com/mohammedZato/E-Commerce_MERN",
+      github: "https://github.com/mohammedZato/E-commerce-MERN",
     },
     {
       title: "Expense Tracker",
